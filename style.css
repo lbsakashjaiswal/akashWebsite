@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 100vh;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase; 
+    /* font-weight: bold;    */
+    font-size: medium;
+    font-family: 'Staatliches', cursive;
+}
+
+.navbarButtons li a:hover{
+    border: none;
+    color: #b12035;
+    box-shadow: 5px 5px 10px rgb(202, 199, 199);
+    transition: 0.3s;
+}
+
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+
+.icon-bar{
+    background: darkorange;
+}
+
+li a{
+    color: #333;
+}
+
+.titleName{
+    color: #b12035;
+}
+
+.big-text{
+    font-size: 23px;
+    margin: 20px 0;
+    color: #092842;
+}
+
+.banner-info, .banner-image{
+    margin: 20px 0;
+    font-family: 'Uchen', serif;
+}
+
+.img-responsive{
+    max-height:500px;
+}
+
+#more {display: none;}
+
+#myBtn{
+    color: white;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: #11253b;
+    color: #fff;
+}
+
+a.btn-second{
+    background: transparent;
+    border: 1px solid #11253b;
+    color: #333;
+}
+
+a.btn:hover{
+    background: #11253b;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
