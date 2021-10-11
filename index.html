@@ -1,101 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Akash Website</title>
-        <link rel="icon" href="/logo.png" />
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1, width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Akash Website</title>
+    <link rel="icon" href="/logo.png" />
 
-        <link rel="stylesheet" type="text/css" href="/style.css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uchen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styleMedia.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar -->
+      <nav class="navbar navbar-style">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- Button for hidding navbar -->
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#micon"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo -->
+            <a href=""><img class="logo" src="/logo.png" /></a>
+          </div>
 
-    </head>
-    <body>
-        <header class="header">
-                    <!-- Navbar -->
-            <nav class="navbar navbar-style">
-                <div class="container">
-                    
-                    <div class="navbar-header">
-                        <!-- Button for hidding navbar -->
-                        <button type="button" class="navbar-toggle" 
-                        data-toggle="collapse" data-target="#micon">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                        <!-- Logo -->
-                        <a href=""><img class="logo" src="/logo.png"></a>
-                    </div>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="micon">
+            <ul class="nav navbar-nav navbar-right navbarButtons">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Guessing Game</a></li>
+              <li><a href="#">Pig Game</a></li>
+              <li><a href="#">Practice Page</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Content -->
 
-                    <!-- Menu -->
-                    <div class="collapse navbar-collapse" id="micon">
-                        <ul class="nav navbar-nav navbar-right navbarButtons">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Guessing Game</a></li>
-                            <li><a href="#">Pig Game</a></li>
-                            <li><a href="#">Practice Page</a></li>
-                            <li><a href="#">About Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-                    <!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 banner-info">
+            <h1 class="titleName">Hello</h1>
+            <p class="big-text">
+              Before my self-introduction let me tell you about my personality
+              I'm a very friendly man so I can easily communicate with someone.
+              Well, I'm Akash Kumar Jaiswal. I have come from Gorakhpur district
+              and my State name is UP. I have done my graduation from CCS
+              University. I did BCA in 2020. About my schooling<span id="dots"
+                >...</span
+              ><span id="more"
+                >, I did my intermediate in 2017 from CBSE Board with PCM &
+                computer science and High school too.Let me tell you about my
+                weakness I feel uncomfortable until I finished my work in the
+                given time. My strength is self-confidence adaptable in any kind
+                of situation and teamwork. My short-term goal is to get a job in
+                a reputed company. And long term goal is to achieve a good
+                position where I build my career and organization too. Now
+                coming to my family background there are four members in my
+                family including me. My mother is a housewife. This is journal
+                information about me, that's it.</span
+              >
+            </p>
 
-            <div class="container">
-                <div class="row">
+            <a href="#" class="btn btn-first" onclick="myFunction()" id="myBtn"
+              >Read more</a
+            >
+            <a
+              href="/Akash Kumar Jaiswal Resume.pdf"
+              target="_blank"
+              class="btn btn-second button"
+            >
+              <i class="fa fa-download"></i>
+              Download my CV
+            </a>
+          </div>
+          <div class="col-sm-6 banner-image">
+            <img src="/rightImage.png" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
 
-                    <div class="col-sm-6 banner-info">
-                        <h1 class="titleName">Hello</h1>
-                        <p class="big-text">
-                            Before my self-introduction let me tell you about my personality I'm a very friendly man so I can easily communicate with someone. Well, I'm Akash Kumar Jaiswal. I have come from Gorakhpur district and my State name is UP.
-                            I have done my graduation from CCS University. I did BCA in 2020. 
-                            About my schooling<span id="dots">...</span><span id="more">, I did my intermediate in 2017 from CBSE Board with PCM & computer science and High school too.Let me tell you about my weakness I feel uncomfortable until I finished my work in the given time. My strength is self-confidence adaptable in any kind of situation and teamwork. My short-term goal is to get a job in a reputed company. And long term goal is to achieve a good position where I build my career and organization too. Now coming to my family background there are four members in my family including me. My mother is a housewife.
-                            This is journal information about me, that's it.</span>
-                        </p>
-                        
-                        <a href="#" class="btn btn-first" onclick="myFunction()" id="myBtn">Read more</a>
-                        <a href="/Akash Kumar Jaiswal Resume.pdf" target="_blank" class="btn btn-second button">
-                            <i class="fa fa-download"></i>
-                            Download my CV
-                         </a>
-                    </div>
-                    <div class="col-sm-6 banner-image">
-                        <img src="/rightImage.png" class="img-responsive">
-                    </div>
-                </div>
-            </div>
-
-        </header>
-        <script>
-            function myFunction() {
-                console.log("button clicked");
-                var dots = document.getElementById("dots");
-                var moreText = document.getElementById("more");
-                var btnText = document.getElementById("myBtn");
-
-                if (dots.style.display === "none") {
-                    dots.style.display = "inline";
-                    btnText.innerHTML = "Read more"; 
-                    moreText.style.display = "none";
-                } else {
-                    dots.style.display = "none";
-                    btnText.innerHTML = "Read less"; 
-                    moreText.style.display = "inline";
-                }
-            }
-        </script>
-    </body>
-
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+  </body>
 </html>

@@ -1,87 +1,93 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.header{
-    height: 100vh;
+.container {
+  width: 100%;
 }
 
-.navbar-style{
-    box-shadow: 0 5px 10px #efefef;
-    text-transform: uppercase; 
-    /* font-weight: bold;    */
-    font-size: medium;
-    font-family: 'Staatliches', cursive;
+.header {
+  height: 100vh;
 }
 
-.navbarButtons li a:hover{
-    border: none;
-    color: #b12035;
-    box-shadow: 5px 5px 10px rgb(202, 199, 199);
-    transition: 0.3s;
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: "Staatliches", cursive;
 }
 
-.logo{
-    height: 48px;
-    padding: 2px 10px;
+.navbarButtons li a:hover {
+  border: none;
+  color: #b12035;
+  box-shadow: 5px 5px 10px rgb(202, 199, 199);
+  transition: 0.3s;
 }
 
-.icon-bar{
-    background: darkorange;
+.logo {
+  height: 48px;
+  padding: 2px 10px;
 }
 
-li a{
-    color: #333;
+.icon-bar {
+  background: darkorange;
 }
 
-.titleName{
-    color: #b12035;
+li a {
+  color: #333;
 }
 
-.big-text{
-    font-size: 23px;
-    margin: 20px 0;
-    color: #092842;
+.titleName {
+  color: #b12035;
 }
 
-.banner-info, .banner-image{
-    margin: 20px 0;
-    font-family: 'Uchen', serif;
+.big-text {
+  font-size: 23px;
+  margin: 20px 0;
+  color: #092842;
 }
 
-.img-responsive{
-    max-height:500px;
+.banner-info,
+.banner-image {
+  margin: 20px 0;
+  font-family: "Uchen", serif;
 }
 
-#more {display: none;}
-
-#myBtn{
-    color: white;
+.img-responsive {
+  max-height: 500px;
 }
 
-a.btn{
-    margin: 30px 10px;
-    width: 150px;
-    padding: 10px;
-    border-radius: 20px;
+#more {
+  display: none;
 }
 
-a.btn-first{
-    background-color: #11253b;
-    color: #fff;
+#myBtn {
+  color: white;
 }
 
-a.btn-second{
-    background: transparent;
-    border: 1px solid #11253b;
-    color: #333;
+a.btn {
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-a.btn:hover{
-    background: #11253b;
-    border: none;
-    color: #fff;
-    box-shadow: 5px 5px 10px #999;
-    transition: 0.3s;
+a.btn-first {
+  background-color: #11253b;
+  color: #fff;
+}
+
+a.btn-second {
+  background: transparent;
+  border: 1px solid #11253b;
+  color: #333;
+}
+
+a.btn:hover {
+  background: #11253b;
+  border: none;
+  color: #fff;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
 }
